@@ -42,8 +42,6 @@ header.menu > a.selected:hover {
 header.menu > a.selected2 {
   padding: 16px 20px;
   text-decoration: none;
-  /* position: relative; */
-  /* left: 1110px; */
   display: none;
   color: white;
 }

@@ -1,3 +1,3 @@
 function myFunction() {
-    document.querySelector("div").style = "display : block"
-  }
+  document.querySelector("div").style = "display : block";
+}
