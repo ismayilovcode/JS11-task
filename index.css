@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+header.menu {
+  display: flex;
+  background-color: red;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  box-shadow: 2px 1px 1px rgb(0, 0, 0.1);
+}
+
+header.menu > a.selected,
+header.menu > div.links > a {
+  padding: 16px 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header.menu > a.selected {
+  color: black;
+  background-color: white;
+}
+
+header.menu > div.links > a.selected {
+  background-color: white;
+  color: black;
+}
+
+header.menu > div.links > a:hover {
+  background-color: white;
+  color: black;
+}
+
+header.menu > a.selected:hover {
+  background-color: whitesmoke;
+}
+
+header.menu > a.selected2 {
+  padding: 16px 20px;
+  text-decoration: none;
+  /* position: relative; */
+  /* left: 1110px; */
+  display: none;
+  color: white;
+}
+
+header.menu > a.selected2:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  header.menu > div.links {
+    display: none;
+  }
+
+  header.menu > a.selected2 {
+    display: block;
+  }
+
+  header.menu {
+    justify-content: space-between;
+  }
+}
